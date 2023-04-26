@@ -1,0 +1,42 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: #333;
+    color: white;
+}
+
+nav{
+    border-bottom: solid 4px #0A7CB6;
+    opacity: .8;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(../images/home.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.email-input  {
+    height: 3rem;
+    border-radius: 3em;
+    border-color: #fafdf318;
+    /* color: white !important; */
+}
+.submit-button{
+    border-radius: 3em;
+}
+.subscribe .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #CCCCCC;
+    opacity: 1; /* Firefox */
+}
+
+.subscribe .form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #CCCCCC;
+}
+
+.subscribe .form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: #CCCCCC;
+}
+.low-footer{
+    border-top: solid 1px #fafdf318;
+}
